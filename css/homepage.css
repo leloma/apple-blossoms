@@ -1,0 +1,206 @@
+body{
+    background-color: #96ddf3;
+
+}
+a{
+    color: aquamarine;
+}
+
+/*CSS for the 4 big sections*/
+.section1{
+    padding: 2 3%;
+    margin: 0%;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: aliceblue;
+}
+.section2{
+    padding: 0.5%;
+    margin: 0.1%;
+}
+
+.section3{
+    padding: 2%;
+    margin: 1%;
+    line-height: 10%;
+}
+
+.section4{
+    padding: 2%;
+    margin: 1%;
+    color: rgb(24, 23, 23);
+    
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+
+
+h3{
+    padding: 5px;
+    margin:0;
+
+}
+
+/*TITLE CSS*/
+.boutique-name{
+    color: #ebe3e3;
+    padding-left: 25%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-family: cursive;
+    float: left;
+}
+
+.boutique-name-font{
+    font-size: 105px;
+
+}
+
+h1{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+/* Login and register links css */
+
+.login-register{
+    line-height: 0px;
+}
+.login-register ul{
+    list-style: none;
+}
+
+.login-register ul li{
+    display: inline;
+}
+
+.login-register a{
+    padding: 10px 30px;
+    font-size: 30px;
+    color: #2d3a3d;
+    text-decoration: none;
+    /* line-height: 10%; */
+}
+
+.text-right{
+    text-align: right;
+}
+
+/* Categories CSS */
+.categories{
+    padding-top: 0%;
+    padding: 0 0 0 0;
+    color: #434377;
+    font-size: 30px;
+    
+}
+.text-center{
+    text-align: center;
+}
+
+.boxes{
+    width: 30%;
+    margin: 1%;
+    line-height: 60%;
+    float: left;
+    color: #2f3640;
+    font-size: x-large;
+}
+
+.full-image{
+    width: 100%;
+}
+
+.image-size{
+    width: 300px;
+    height: 200px;
+}
+
+.rounding{
+    border-radius: 0%;
+}
+
+.cat-texts{
+    color: rgb(34, 33, 31);
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+
+/* Social Media CSS  */
+.social-media ul{
+    list-style: none;
+}
+.social-media ul li{
+    display: inline;
+    padding: 2%;
+    font-family: monospace;
+    color: rgb(31, 30, 25);
+}
+
+/* Footer CSS */
+.rights{
+    padding: 0 0 0 0;
+    
+}
+
+
+
+.mantra{
+    position: absolute;
+    left: 30px;
+    top: 330px;
+}
+.mantradecor{
+    font-family: cursive;
+    font-size: 30px;
+    color: coral;
+}
+h3{
+    color: darkgray;
+}
+.login-page{
+    position: absolute;
+    right: 300px;
+    top: 400px;
+    width: 120px;
+    padding: 10px 30px;
+    font-size: 30px;
+
+}
+
+.register-page{
+    position: absolute;
+    right: 100px;
+    top: 400px;
+    width: 120px;
+    padding: 10px 30px;
+    font-size: 30px;
+
+}
+.register-page a:link, a:visited {
+    background-color: #412506;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+.login-page a:link, a:visited {
+background-color: #412506;
+color: white;
+padding: 14px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+
